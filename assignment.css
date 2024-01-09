@@ -3,13 +3,16 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+header, main {
     width: 1320px;
     margin: auto;
 }
 
 /* header section styles  */
-.header {
+.banner {
     background-image: url('../images/Banner Image.png');
     padding: 177px 340px;
     background-repeat: no-repeat;
@@ -65,6 +68,8 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .second-part-sale-catagory {
@@ -80,7 +85,7 @@ body {
 .second-part img {
     width: 802.9px;
     height: 500px;
-    flex-shrink: 0;
+    margin-top: 30px;
 }
 
 .second-section {
@@ -152,11 +157,13 @@ text-transform: capitalize;
 .third-section button {
     color: #FFF;
     background-color: #F00;
+    font-family: 'Inter';
    font-size: 18px;
 padding: 16px 32px;
 font-weight: 700;
 border: none;
 border-radius: 5px;
+margin-top: 25px;
 
 
 }
@@ -273,14 +280,14 @@ line-height: 32px; /* 160% */
     border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 margin-top: 50px;
+padding: 125px;
 }
 .seventh-section img{
     width: 150px;
-    margin-top: 60px;
 }
 .seventh-section h1{
     color: #070211;
-font-family: Merriweather;
+    font-family: 'Merriweather';
 font-size: 48px;
 font-weight: 900;
 margin: 25px 0px;
@@ -293,7 +300,10 @@ font-weight: 400;
 margin-bottom: 25px;
 }
 
-
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
 
 .newsletter input {
     border-radius: 50px 0px 0px 50px;
@@ -313,4 +323,46 @@ padding: 20px 55px;
 color: white;
 font-weight: 700;
 font-size: 18px;
+}
+
+footer {
+    margin-top: 60px;
+    background: black;
+    padding: 125px;
+}
+
+.footer-top, .footer-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-top-right {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-top-right div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-top-left p, .footer-top-right a {
+    color: white;
+    text-decoration: none;
+}
+
+footer hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: none;
+    margin: 50px 0px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
