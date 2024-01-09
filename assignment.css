@@ -267,3 +267,50 @@ line-height: 32px; /* 160% */
 .second-images {
     margin-top: 30px;;
 }
+
+.seventh-section{
+    text-align: center;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-top: 50px;
+}
+.seventh-section img{
+    width: 150px;
+    margin-top: 60px;
+}
+.seventh-section h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin: 25px 0px;
+}
+.seventh-section p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+
+
+
+.newsletter input {
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+background: white;
+padding: 23px 25px;
+color: white;
+font-weight: 700;
+width: 430px;
+}
+
+.newsletter button {
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+background: #F00;
+padding: 20px 55px;
+color: white;
+font-weight: 700;
+font-size: 18px;
+}
