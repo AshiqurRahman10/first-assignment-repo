@@ -13,7 +13,7 @@ header, main {
 
 /* header section styles  */
 .banner {
-    background-image: url('../images/Banner Image.png');
+    background-image: url('../images/BannerImage.png');
     padding: 177px 340px;
     background-repeat: no-repeat;
     background-size: cover;
